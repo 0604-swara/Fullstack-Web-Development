@@ -1,0 +1,46 @@
+.depstar-container {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.depstar-container h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #0D1B2A;
+}
+
+.intro {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  font-size: 1rem;
+  color: #333;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #1E88E5;
+}
+
+.program-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.program-card {
+  background: #f0f4ff;
+  border-radius: 8px;
+  padding: 15px;
+  color: #0D1B2A;
+  font-weight: 500;
+}
+
+.facilities-list {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  text-align: left;
+  line-height: 1.6;
+}
+

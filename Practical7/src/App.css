@@ -1,0 +1,36 @@
+.page {
+  min-height: calc(100vh - 60px); /* full height minus header */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.page h1 {
+  color: #0D1B2A;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.page p {
+  color: #333;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 20px; /* Center the paragraph */
+}
+
+.page ul {
+  padding: 0;
+  margin: 20px auto 0;
+  max-width: 600px;
+  text-align: left; /* Better for reading */
+}
+
+.page ul li {
+  margin: 6px 0;
+  font-size: 1rem;
+  color: #0D1B2A;
+}
+.content-container {
+  margin-left: 220px; /* push content to the right of sidebar */
+  padding: 40px 20px;
+}
+
